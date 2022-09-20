@@ -1,0 +1,7 @@
+project: replibyte
+target: mongodb-from-reader
+
+cmds:
+  - cmd: /mongodb_from_reader
+  - cmd: /mongodb_from_reader_no_inst @@
+    libfuzzer: false
