@@ -1,0 +1,7 @@
+# BuildKit: overrides upstream root .dockerignore (which drops .git) for -f mayhem/Dockerfile builds.
+# Keep .git IN the context — the commit image must hold the full repo history.
+target/
+mayhem/fuzz/target/
+.DS_Store
+*.swp
+*~

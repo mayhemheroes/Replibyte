@@ -1,0 +1,5 @@
+project: replibyte
+target: mongodb-from-reader
+
+cmds:
+  - cmd: /mayhem/mongodb_from_reader
